@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CustomTabBarController.swift
 //  RootViewControllerSwapDemo
 //
 //  Created by Nomad Company on 9/21/18.
@@ -8,13 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
 
+class CustomTabBarController: UITabBarController {
+    //MARK: Properties
+    
+    
+    //MARK: Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    
+    
 }
-
