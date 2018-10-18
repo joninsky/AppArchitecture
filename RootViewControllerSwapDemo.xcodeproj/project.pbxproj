@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C350414021782BC6000CAD84 /* IcoMoon-Free.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C350413F21782BC6000CAD84 /* IcoMoon-Free.ttf */; };
+		C350414221782C57000CAD84 /* IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = C350414121782C57000CAD84 /* IconFont.swift */; };
 		CC63D68A2159490000CAE178 /* UIFont_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC63D6892159490000CAE178 /* UIFont_Extensions.swift */; };
 		CCCDBF142155724E00BA21D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCDBF132155724E00BA21D0 /* AppDelegate.swift */; };
 		CCCDBF1B2155724F00BA21D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCCDBF1A2155724F00BA21D0 /* Assets.xcassets */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C350413F21782BC6000CAD84 /* IcoMoon-Free.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IcoMoon-Free.ttf"; sourceTree = "<group>"; };
+		C350414121782C57000CAD84 /* IconFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconFont.swift; sourceTree = "<group>"; };
 		CC63D6892159490000CAE178 /* UIFont_Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont_Extensions.swift; sourceTree = "<group>"; };
 		CCCDBF102155724E00BA21D0 /* RootViewControllerSwapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RootViewControllerSwapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCCDBF132155724E00BA21D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C350413E21782B24000CAD84 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C350413F21782BC6000CAD84 /* IcoMoon-Free.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		CCCDBF072155724E00BA21D0 = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				CCCDBF432155748B00BA21D0 /* ViewControllerFactory.swift */,
+				C350414121782C57000CAD84 /* IconFont.swift */,
 			);
 			path = Structs;
 			sourceTree = "<group>";
@@ -165,6 +178,7 @@
 		CCCDBF38215572B700BA21D0 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				C350413E21782B24000CAD84 /* Fonts */,
 				CCCDBF1A2155724F00BA21D0 /* Assets.xcassets */,
 				CCCDBF1C2155724F00BA21D0 /* LaunchScreen.storyboard */,
 			);
@@ -252,6 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C350414021782BC6000CAD84 /* IcoMoon-Free.ttf in Resources */,
 				CCCDBF1E2155724F00BA21D0 /* LaunchScreen.storyboard in Resources */,
 				CCCDBF1B2155724F00BA21D0 /* Assets.xcassets in Resources */,
 			);
@@ -273,6 +288,7 @@
 			files = (
 				CCCDBF4C2155821900BA21D0 /* BasicLabelProtocol.swift in Sources */,
 				CCCDBF422155742A00BA21D0 /* CustomNavigationController.swift in Sources */,
+				C350414221782C57000CAD84 /* IconFont.swift in Sources */,
 				CC63D68A2159490000CAE178 /* UIFont_Extensions.swift in Sources */,
 				CCCDBF482155765B00BA21D0 /* UIViewController_Extensions.swift in Sources */,
 				CCCDBF442155748B00BA21D0 /* ViewControllerFactory.swift in Sources */,
